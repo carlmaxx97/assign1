@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.header {
+header {
   background-color: #efe6dc;
   padding: 20px;
   text-align: center;
@@ -29,4 +29,10 @@ nav li a {
 
 nav li a:hover {
   background-color: #111;
+}
+
+footer {
+  background-color: #efe6dc;
+  padding: 10px;
+  text-align: center;
 }
