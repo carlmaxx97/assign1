@@ -22,7 +22,7 @@ body {
    bottom:0;
    width:100%;
    text-align:center;
-   background:#292c2f;
+   background:#6cf;
 }
 
 /* Style the top navigation bar */
@@ -54,8 +54,8 @@ body {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 25%;
-  padding: 15px;
+  width: 50%;
+  padding: 10px;
 }
 
 .card {
@@ -89,35 +89,58 @@ a {
      text-decoration: none;
     }
 
-.footer-company-motto{
-	color:  #8d9093;
-	font-size: 24px;
-	margin: 0;
-}
-
-.footer-company-name{
-	color:  #8f9296;
-	font-size: 14px;
-	margin: 0;
-}
-
-.footer-links{
-	list-style: none;
-	font-weight: bold;
-	color:  #ffffff;
-	padding: 35px 0 23px;
-	margin: 0;
-}
-
-.footer-links a{
-	display:inline-block;
-	text-decoration: none;
-	color: inherit;
-}
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
+}
+
+/*************************************Harold CSS***********************************************/
+
+/*Image center*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*Button Rental Css*/
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:100%;
+}
+/*Table CSS*/
+table
+{
+	width:100%;
+	display: block;
+	border-spacing: 15px;
+}
+
+td.a
+{
+	text-align:right;
+	vertical-align:top;
+}
+td.b
+{
+	text-align:right;
+	vertical-align:top;
+	width:34%;
+}
+/*Product Name CSS*/
+h1.a
+{
+	text-align:center;
 }
