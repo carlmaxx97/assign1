@@ -9,9 +9,10 @@ body {
    position:relative;
 }
 #header {
-   background:#ff0;
+   background:#292c2f;
    padding:10px;
    text-align:center;
+   color:  #ffffff;
 }
 #body {
    padding:10px;
@@ -22,13 +23,32 @@ body {
    bottom:0;
    width:100%;
    text-align:center;
-   background:#6cf;
+   background:#292c2f;
+}
+.footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+.footer-links{
+	list-style: none;
+	font-weight: bold;
+	color:  #ffffff;
+	padding: 35px 0 23px;
+	margin: 0;
+}
+
+.footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color: inherit;
 }
 
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #555555;
 }
 
 /* Style the topnav links */
@@ -52,6 +72,12 @@ body {
 }
 
 /* Create three equal columns that floats next to each other */
+.column_item {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
 .column {
   float: left;
   width: 50%;
@@ -61,17 +87,19 @@ body {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #39405C;
+  color:#ffffff;
   transition: 0.3s;
   border-radius: 5px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0);
 }
 
-img {
+.card img {
   border-radius: 5px 5px 0 0;
+  padding:5px;
 }
 
 .container {
@@ -86,8 +114,8 @@ img {
 }
 
 a {
-     text-decoration: none;
-    }
+  text-decoration: none;
+}
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
@@ -95,8 +123,6 @@ a {
     width: 100%;
   }
 }
-
-/*************************************Harold CSS***********************************************/
 
 /*Image center*/
 .center {
