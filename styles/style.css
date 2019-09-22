@@ -82,6 +82,12 @@ body {
   padding: 15px;
 }
 
+.column_item_25 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
 .column {
   float: left;
   width: 50%;
