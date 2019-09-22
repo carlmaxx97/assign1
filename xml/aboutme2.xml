@@ -4,7 +4,7 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Assignment 1-Costume Gallery</title>
-		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	</head>
 	<body>
 		<div id="container">
@@ -114,11 +114,17 @@
 						</table>
 					</div>
 				</div>
-				<br/>
-				<p><strong>Sibu</strong> is the one of three city in the sarawak, it is locate at intersaction of Rejang river and the Igan river.<br/><br/>
-				This town is located on the island of Borneo and covers an area of 129.5 square kilometres (50.0 sq mi).<br/><br/>
-				Sibu consist four type of the people which is Chinese, Iban, Melayu and Melanau.<br/><br/>
-				At the past of 1950, Sibu used to be the largest city in Sarawak. The population of Sibu is arround 16000 in 2010. The population of Sibu is continues increasely</p>
+				<div class="row">
+					<div class="column">
+						<p><strong>Sibu</strong> is the one of three city in the sarawak, it is locate at intersaction of Rejang river and the Igan river.<br/><br/>
+						This town is located on the island of Borneo and covers an area of 129.5 square kilometres (50.0 sq mi).<br/><br/>
+						Sibu consist four type of the people which is Chinese, Iban, Melayu and Melanau.<br/><br/>
+						At the past of 1950, Sibu used to be the largest city in Sarawak. The population of Sibu is arround 16000 in 2010. The population of Sibu is continues increasely</p>
+					</div>
+					<div class="column">
+						<img src="images/Home_Town/home_town1.jpg" alt="Home Town" class="home_town"/>
+					</div>
+				</div>
 		   </div>
 		   <!--Footer-->
 			<div id="footer">
