@@ -41,8 +41,8 @@
 								<td><input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required></td>
 							</tr>
 							<tr>
-								<td><label for ="eaddress">Email Address</label></td>
-								<td><input type="email"  name="email" placeholder="Your E-mail.."></td>
+								<td><label for="eaddress">Email Address</label></td>
+								<td><input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.."></td>
 							</tr>
 							<tr>
 								<td colspan="2">
@@ -73,7 +73,7 @@
 											
 										</select><br/>
 										<label for="postcode">Postcode</label>
-										<input type="text" pattern="[0-9]{5}"maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required>
+										<input type="text" pattern="[0-9]{5}" maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required>
 									</fieldset>
 								</td>
 							</tr>
@@ -108,7 +108,7 @@
 								<td><input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required></td>
 							</tr>
 							<tr>
-								<td valign="top"><label for="comment">Comment</label></td>
+								<td class="c"><label for="comment">Comment</label></td>
 								<td><textarea name="comment" id="comment" placeholder="Ask anything here.." cols="50" rows="5"></textarea></td>
 							</tr>
 							<tr>
@@ -142,4 +142,4 @@
 			</div>
 		</div>
 	</body>
-</html> 
+</html>
