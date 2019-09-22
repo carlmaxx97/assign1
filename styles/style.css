@@ -164,6 +164,12 @@ td.a
 	vertical-align:top;
 	font-weight:bold;
 }
+
+td.b
+{
+	text-align:left;
+	vertical-align:top;
+}
 /*Product Name CSS*/
 h1.a
 {
