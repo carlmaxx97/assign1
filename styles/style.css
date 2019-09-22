@@ -219,7 +219,7 @@ div.b
 
 div.c
 {
-	color: blue;
+	color:rgba(102,0,102,1.0);
 }
 
 img.a {
@@ -228,14 +228,6 @@ img.a {
   padding:20px;
   width:300px;
   height:400px;
-}
-
-.student_id{
-	font-family: "Arial", Helvetica, sans-serif;
-}
-
-.course{
-	color:rgba(102,0,102,1.0);
 }
 
 /**************************/
