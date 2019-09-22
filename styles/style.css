@@ -230,6 +230,11 @@ img.a {
   height:400px;
 }
 
+.student_name{
+	font-weight: bold;
+	font-size: 200%;
+}
+
 .student_id{
 	font-family: "Arial", Helvetica, sans-serif;
 }
