@@ -3,8 +3,9 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!--Link to Css File-->
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 		<title>Assignment 1-Costume Gallery</title>
-		<link rel="stylesheet" type="text/css" href="styles/style.css">
 	</head>
 	<body>
 		<div id="container">
@@ -27,11 +28,80 @@
 			
 			<!--Content-->
 			<div id="body">
+				<h3>Enquiry Rental Form</h3>
 				<div class="row">
-					
+					<form >
+						<label for="fname">First Name</label>
+						<input type="text" pattern="[A-Za-z]" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required>
+						
+						<label for="lname">Last Name</label>
+						<input type="text" pattern="[A-Za-z]" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required>
+						
+						<label for ="eaddress">Email Address</label>
+						<input type="email"  name="email" placeholder="Your E-mail.." required>
+						
+						<fieldset>
+						<legend>Address</legend>
+						<label for="saddress">Street Address</label>
+						<input type="text" size ="40" maxlength="40" id="saddress" name="streetaddress" placeholder="Your Address.." required>
+						<label for="city">City/ Town</label>
+						<input type="text" size ="20" maxlength="20" id="city" name="city" placeholder="Your City/town.." required>
+						<label for="state">State</label>
+						<select name="state" id="state" required>
+							<option value="johor">Johor Bahru</option>
+							<option value="kedah">Kedah</option>
+							<option value="kelantan">Kelantan</option>
+							<option value="malacca">Malacca</option>
+							<option value="negsembilan">Negeri Sembilan</option>
+							<option value="pahang">Pahang</option>
+							<option value="penang">Penang</option>
+							<option value="perak">Perak</option>
+							<option value="perlis">Perlis</option>
+							<option value="sabah">Sabah</option>
+							<option value="sarawak">Sarwak</option>
+							<option value="selangor">Selangor</option>
+							<option value="terengganu">Terengganu</option>
+							<option value="kl">Kuala Lumpur</option>
+							<option value="lb">Labuan</option>
+							<option value="pt">Putrajaya</option>
+							
+						</select>
+						<label for="postcode">Postcode</label>
+						<input type="text" pattern="[0-9]"maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." required>
+						</fieldset>
+						
+						<label for="pnum">Phone Number</label>
+						<input type="text" pattern="[0-9]" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." required>
+											
+						<label for="product">Product</label>
+						<select name="product" id="product" required>
+							<option value ="bhulk">Baby's Hulk Costume</option>
+							<option value ="ggamora">Girl's Gamora Costume</option>
+							<option value ="bironman">Boy's Iron Man Costume</option>
+							<option value ="wblackwidow">Woman's Black Widow Costume</option>
+							<option value ="mthanos">Man's Thanos Costume</option>
+							<option value ="byoda">Baby's Yoda Costume</option>
+							<option value ="gprincessleia">Girl's Princess Leia Costume</option>
+							<option value ="bjedi">Boy's Jedi Costume</option>
+							<option value ="mdarthvader">Man's Darth Vader Costume</option>
+							<option value ="wrey">Woman's Rey Costume</option>
+							<option value ="bkevinminion">Baby's kevin Minion Costume</option>
+							<option value ="wminion">Woman's Minion Costume</option>
+							<option value ="bdraculaminion">Boy's Dracula Minion Costume</option>
+							<option value ="mjerryminion">Man's Jerry Minion Costume</option>
+							<option value ="gfunminion">Girl's Fun Minion Costume</option>
+						</select>
+						
+						<label for="rentdura">Rental Duration</label>
+						<input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required>
+						
+						<label for="comment">Comment</label>
+						<input type="textarea" name="comment" id="comment" placeholder="Ask anything here.." >
+						
+						
+					</form>
 				</div>
 			</div>
-			
 			<!--Footer-->
 			<div id="footer">
 				<p class="footer-links">
@@ -53,7 +123,6 @@
 					<br/>Costume Gallery &copy; 2019
 				</p>	
 			</div>
-			
 		</div>
 	</body>
 </html> 
