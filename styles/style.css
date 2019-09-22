@@ -162,12 +162,7 @@ td.a
 {
 	text-align:right;
 	vertical-align:top;
-}
-td.b
-{
-	text-align:right;
-	vertical-align:top;
-	width:34%;
+	font-weight:bold;
 }
 /*Product Name CSS*/
 h1.a
