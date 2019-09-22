@@ -212,12 +212,12 @@ div.a
   text-align:center;
   font-weight:bold;
 }
-div.b
+label.b
 {
 	font-family: Arial,sans-serif;
 }
 
-div.c
+label.c
 {
 	color:rgba(102,0,102,1.0);
 }
