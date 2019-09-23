@@ -28,40 +28,40 @@
 			
 			<!--Content-->
 			<div id="body">
-				<div class="acenter">
+				<div class="enquiry_center">
 				
 					<form name="enquiry" id="enquiry" method="POST" action="enquiry.html">
-					<table class="etable">
+					<table class="enquiry_table">
 					<tr>
-						<td colspan="2" class="f"><h3>Enquiry Rental Form</h3></td>
+						<td colspan="2" class="c_center"><h3>Enquiry Rental Form</h3></td>
 					</tr>
 					<tr>
-						<td class="d">First Name:</td>
+						<td class="right_field">First Name:</td>
 						<td><input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" /></td>
 					</tr>
 					<tr>
-						<td class="d">Last Name:</td>
+						<td class="right_field">Last Name:</td>
 						<td><input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" /></td>
 					</tr>
 					<tr>
-						<td class="d">Email Address:</td>
+						<td class="right_field">Email Address:</td>
 						<td><input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." /></td>
 					</tr>
 					<tr>
-						<td colspan="2" class="b">
+						<td colspan="2" class="info_cell">
 						<fieldset>
 						<legend>Address</legend>
 							<table class="etable">
 							<tr>
-								<td class="e">Street Address:</td>
+								<td class="addr_right_field">Street Address:</td>
 								<td><input type="text" size ="40" maxlength="40" id="saddress" name="streetaddress" placeholder="Your Address.." required="required" /></td>
 							</tr>
 							<tr>
-								<td class="e">City/Town:</td>
+								<td class="addr_right_field">City/Town:</td>
 								<td><input type="text" size ="20" maxlength="20" id="city" name="city" placeholder="Your City/town.." required="required" /></td>
 							</tr>
 							<tr>
-								<td class="e">State:</td>
+								<td class="addr_right_field">State:</td>
 								<td>
 									<select name="state" id="state">
 										<option value="johor">Johor Bahru</option>
@@ -84,7 +84,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="e">Postcode:</td>
+								<td class="addr_right_field">Postcode:</td>
 								<td><input type="text" pattern="[0-9]{5}" maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required="required" /></td>
 							</tr>
 							</table>
@@ -92,11 +92,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="d">Phone Number:</td>
+						<td class="right_field">Phone Number:</td>
 						<td><input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" /></td>
 					</tr>
 					<tr>
-						<td class="d">Product:</td>
+						<td class="right_field">Product:</td>
 						<td>
 							<select name="product" id="product">
 								<option value ="bhulk">Baby's Hulk Costume</option>
@@ -118,15 +118,15 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="d">Rental Duration:</td>
+						<td class="right_field">Rental Duration:</td>
 						<td><input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required="required" /></td>
 					</tr>
 					<tr>
-						<td class="d">Comment:</td>
+						<td class="right_field">Comment:</td>
 						<td><textarea name="comment" id="comment" placeholder="Ask anything here.." cols="50" rows="5"></textarea></td>
 					</tr>
 					<tr>
-						<td class="d"><input type="submit" value="Submit" class="button"/></td>
+						<td class="right_field"><input type="submit" value="Submit" class="button"/></td>
 						<td><input type="reset" value="Reset" class="button"/></td>
 					</tr>
 					</table>
