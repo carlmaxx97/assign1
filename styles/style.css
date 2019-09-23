@@ -251,10 +251,11 @@ table
 /*To specify the text alignment in aboutme,product information title*/
 td.center_cell
 {
-	text-align:left;
+	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
 	width:50%;
+	col width:200;
 }
 
 td.info_cell
@@ -361,7 +362,9 @@ img.img_layout {
 /*								Wrote by Philip Tiong Kwong Wei											*/
 /********************************************************************************************************/
 
+/*For all the description and wording that is in the product page*/
 td.descrip
 {
 	float: left;
+	
 }
