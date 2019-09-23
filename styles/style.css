@@ -362,8 +362,8 @@ img.img_layout {
 /********************************************************************************************************/
 
 /*For all the description and wording that is in the product page*/
-td.descrip
+td.textpattern
 {
-	text-align:"justify";
+	font-style: italic;
 	
 }
