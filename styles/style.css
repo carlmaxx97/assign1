@@ -254,6 +254,7 @@ td.center_cell
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
+	width:50%;
 }
 
 td.info_cell
