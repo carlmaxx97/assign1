@@ -251,7 +251,7 @@ table
 /*To specify the text alignment in aboutme,product information title*/
 td.center_cell
 {
-	text-align:right;
+	text-align:left;
 	vertical-align:top;
 	font-weight:bold;
 	width:50%;
