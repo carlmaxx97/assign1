@@ -1,5 +1,7 @@
-/*To specify the content layout of each page*/
-/*Wrote by Chua Chung Long*/
+/********************************************************************************************************/
+/*								Wrote by Chua Chung Long												*/
+/********************************************************************************************************/
+/*To specify the content layout of each page*/															
 html,
 body {
    margin:0;
@@ -8,16 +10,12 @@ body {
 }
 
 /*To specify the content layout of each page*/
-/*Wrote by Chua Chung Long*/
-
 #container {
    min-height:100%;
    position:relative;
 }
 
 /*To specify the layout and background of the header*/
-/*Wrote by Chua Chung Long*/
-
 #header {
    background:#292c2f;
    padding:10px;
@@ -26,16 +24,12 @@ body {
 }
 
 /*To specify the padding of the content top and bottom*/
-/*Wrote by Chua Chung Long*/
-
 #body {
    padding:10px;
    padding-bottom:100px;
 }
 
 /*To specify the layout and background of the footer*/
-/*Wrote by Chua Chung Long*/
-
 #footer {
    position:absolute;
    bottom:0;
@@ -45,8 +39,6 @@ body {
 }
 
 /*To specify the text decoration of the footer company and year*/
-/*Wrote by Chua Chung Long*/
-
 .footer-company-name{
 	color:  #8f9296;
 	font-size: 14px;
@@ -54,15 +46,11 @@ body {
 }
 
 /*To specify the text decoration of the footer email hyperlink*/
-/*Wrote by Chua Chung Long*/
-
 .footer-company-name a{
 	color:  #8f9296;
 }
 
 /*To specify the text decoration of the footer link*/
-/*Wrote by Chua Chung Long*/
-
 .footer-links{
 	list-style: none;
 	font-weight: bold;
@@ -72,8 +60,6 @@ body {
 }
 
 /*To specify the text decoration of the footer link for hyperlink*/
-/*Wrote by Chua Chung Long*/
-
 .footer-links a{
 	display:inline-block;
 	text-decoration: none;
@@ -81,16 +67,12 @@ body {
 }
 
 /*Style the top navigation bar*/
-/*Wrote by Chua Chung Long*/
-
 .topnav {
   overflow: hidden;
   background-color: #555555;
 }
 
 /*Style the topnav links*/
-/*Wrote by Chua Chung Long*/
-
 .topnav a {
   float: left;
   display: block;
@@ -101,23 +83,17 @@ body {
 }
 
 /* Change color on hover */
-/*Wrote by Chua Chung Long*/
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /*To specify the card layout in index and category page*/
-/*Wrote by Chua Chung Long*/
-
 * {
   box-sizing: border-box;
 }
 
 /* Create 5 equal columns that floats next to each other */
-/*Wrote by Chua Chung Long*/
-
 .column_item {
   float: left;
   width: 20%;
@@ -125,8 +101,6 @@ body {
 }
 
 /*To specify the layout of the profile image*/
-/*Wrote by Chua Chung Long*/
-
 .column_item_25_image {
   float: left;
   width: 300px;
@@ -134,8 +108,6 @@ body {
 }
 
 /*To specify the layout of the profile information*/
-/*Wrote by Chua Chung Long*/
-
 .column_item_25 {
   float: left;
   width: 25%;
@@ -143,8 +115,6 @@ body {
 }
 
 /*To specify the half layout in product1..., aboutme and etc*/
-/*Wrote by Chua Chung Long*/
-
 .column {
   float: left;
   width: 50%;
@@ -152,8 +122,6 @@ body {
 }
 
 /*To specify the product listing layout of the index, category page*/
-/*Wrote by Chua Chung Long*/
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -164,32 +132,28 @@ body {
 }
 
 /*To specify the mouse hover decoration of product listing layout of the index, category page*/
-/*Wrote by Chua Chung Long*/
-
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0);
 }
 
 /*To specify the thumbnail decoration of product listing layout of the index, category page*/
-/*Wrote by Chua Chung Long*/
-
 .card img {
   border-radius: 5px 5px 0 0;
   padding:5px;
 }
 
 /*To specify the thumbnail description of product listing layout of the index, category page*/
-/*Wrote by Chua Chung Long*/
-
 .container {
   padding: 2px 16px;
 }
 
-/*To specify the text type of Disclaimer page*/
-
-.drow
-{
-	 font-family: "Trebuchet MS", Helvetica, sans-serif;
+/*To specify remove the underline for all hyperlink*/
+a {
+  text-decoration: none;
+}
+/*To specify the image layout of howmtown in aboutme */
+img.home_town {
+  width:25%;
 }
 
 /* Clear floats after the columns */
@@ -199,28 +163,15 @@ body {
   clear: both;
 }
 
-/*To specify remove the underline for all hyperlink*/
-/*Wrote by Chua Chung Long*/
-
-a {
-  text-decoration: none;
-}
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-/*Wrote by Chua Chung Long*/
-
 @media screen and (max-width:600px) {
 	
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
-	/*Wrote by Chua Chung Long*/
-	
 	.column {
 		width: 100%;
 	}
 	
 	/* Create 1 equal columns that floats next to each other in mobile side*/
-	/*Wrote by Chua Chung Long*/
-	
 	.column_item {
 		float: left;
 		width: 20%;
@@ -228,8 +179,6 @@ a {
 	}
 	
 	/*To specify the layout of the profile image in mobile side*/
-	/*Wrote by Chua Chung Long*/
-
 	.column_item_25_image {
 		float: left;
 		width: 300px;
@@ -237,13 +186,21 @@ a {
 	}
 	
 	/*To specify the layout of the profile information in mobile side*/
-	/*Wrote by Chua Chung Long*/
-
 	.column_item_25 {
 		float: left;
 		width: 25%;
 		padding: 15px;
 	}
+}
+
+/********************************************************************************************************/
+/*								Wrote by Harold Mah Wei Jing											*/
+/********************************************************************************************************/
+
+/*To specify the text type of Disclaimer page*/
+.disclaimer_row
+{
+	 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 /*Image center*/
@@ -276,7 +233,7 @@ a {
   width:100%;
 }
 /*To specify the layout of table in enquiry*/
-table.etable
+table.enquiry_table
 {
 	width:91.6%;
 	border-spacing: 15px;
@@ -284,7 +241,6 @@ table.etable
 }
 
 /*To specify the layout of table in all page*/
-
 table
 {
 	width:100%;
@@ -293,8 +249,7 @@ table
 }
 
 /*To specify the text alignment in aboutme,product information title*/
-
-td.a
+td.center_cell
 {
 	text-align:right;
 	vertical-align:top;
@@ -313,8 +268,7 @@ td.a
 /* } */
 
 /*To specify the text alignment of title of field input of enquiry*/
-
-td.d
+td.right_field
 {
 	text-align:right;
 	width:50%;
@@ -322,35 +276,19 @@ td.d
 }
 
 /*To specify the text alignment of title of field input in Address fieldset of enquiry*/
-
-td.e
+td.addr_right_field
 {
 	text-align:right;
 	width:59%;
 }
 
 /*To specify the text alignment of title of enquiry*/
-
-td.f
-{
-	text-align:center;
-}
-
-/*To specify the text alignment of heading in all page*/
-h1.a
-{
-	text-align:center;
-}
-
-/*To specify the text alignment of heading in all page*/
-
-h3.a
+.c_center
 {
 	text-align:center;
 }
 
 /*To specify the layout of text in all page*/
-
 label {
   padding-left: 12px;
   padding-top: 12px;
@@ -376,12 +314,8 @@ label {
   /* margin-top: 6px; */
 /* } */
 
-/**************************/
-
-
 /*To specify the title of aboutme*/
-
-div.a
+div.about_div
 {
   font-size: 200%;
   text-align:center;
@@ -389,48 +323,35 @@ div.a
 }
 
 /*To specify the content of disclaimer*/
-
-div.b
+div.disclaimer_div
 {
   text-align:center;
   height:auto;
 }
 
 /*To specify the layout of enquiry*/
-
-div.acenter {
+div.enquiry_center {
   margin: auto;
   width: 50%;
 }
 
 /*To specify the text type of the student_id of aboutme*/
-
-label.b
+label.id_font
 {
 	font-family: Arial,sans-serif;
 }
 
 /*To specify the text color of the course of aboutme*/
-
-label.c
+label.course_color
 {
 	color:rgba(102,0,102,1.0);
 }
 
 /*To specify the image layout of the profile image*/
-
-img.a {
+img.img_layout {
   float: left;
   border-style:groove;
   padding:20px;
   width:300px;
   height:400px;
 }
-
-/*To specify the image layout of howmtown in aboutme */
-/*Wrote by Chua Chung Long*/
-
-img.home_town {
-  width:25%;
-}
-/**************************/
