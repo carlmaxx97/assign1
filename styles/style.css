@@ -364,6 +364,6 @@ img.img_layout {
 /*For all the description and wording that is in the product page*/
 td.descrip
 {
-	text align:"justify";
+	text-align:"justify";
 	
 }
