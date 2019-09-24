@@ -335,10 +335,20 @@ td.enhtitleleft{
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
-	background-color: green;
+	font-size:18px;
 }
 td.enhlink{
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
+}
+td.enhtitleright{
+	text-align:left;
+	vertical-align:top;
+	font-weight:bold;
+	font-size:18px;
+}
+td.enhdescrip{
+	text-align:right;
+	vertical-align:top;
 }
