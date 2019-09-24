@@ -335,7 +335,7 @@ td.enhtitleleft{
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
-	font-size: 18px;
+	background-color: green;
 }
 td.enhlink{
 	text-align:right;
