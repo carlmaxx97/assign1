@@ -335,5 +335,10 @@ td.enhtitleleft{
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
-	/*width:30%;*/
+	font-size: 18px;
+}
+td.enhlink{
+	text-align:right;
+	vertical-align:top;
+	font-weight:bold;
 }
