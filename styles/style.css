@@ -211,13 +211,6 @@ img.home_town {
   width: 50%;
 }
 
-/* .centerb */
-/* { */
-  /* margin: auto; */
-  /* width: 50%; */
-  /* padding: 10px; */
-/* } */
-
 /*Button Rental Css*/
 .button {
   background-color: #4CAF50;
@@ -254,7 +247,7 @@ td.center_cell
 	text-align:right;
 	vertical-align:top;
 	font-weight:bold;
-	width:30%;
+	width:30%;			/*Edit by Philip*/
 }
 
 td.info_cell
@@ -262,11 +255,6 @@ td.info_cell
 	text-align:left;
 	vertical-align:top;
 }
-
-/* td.c */
-/* { */
-	/* vertical-align:top; */
-/* } */
 
 /*To specify the text alignment of title of field input of enquiry*/
 td.right_field
@@ -296,24 +284,6 @@ label {
   display: inline-block;
   /*width: 140px;*/
 }
-
-/* .containerr { */
-  /* border-radius: 5px; */
-  /* background-color: #f2f2f2; */
-  /* padding: 20px; */
-/* } */
-
-/* .col-25 { */
-  /* float: left; */
-  /* width: 25%; */
-  /* margin-top: 6px; */
-/* } */
-
-/* .col-75 { */
-  /* float: left; */
-  /* width: 75%; */
-  /* margin-top: 6px; */
-/* } */
 
 /*To specify the title of aboutme*/
 div.about_div
