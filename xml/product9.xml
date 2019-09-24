@@ -34,49 +34,55 @@
 					</div>
 					<div class="column">
 						<form>
-						<h1 class="a">Man's Darth Vadar Costume</h1>
+						<h1 class="c_center">Man's Darth Vadar Costume</h1>
 							<table>
 							<tr>
-								<td class="a">Product ID:</td>
+								<td class="center_cell">Product ID:</td>
 								<td>SWM-A001</td>
 							</tr>
 							<tr>
-								<td class="a">Price:</td>
+								<td class="center_cell">Price:</td>
 								<td>RM 300.00</td>
 							</tr>
 							<tr>
-								<td class="a">Includes:</td>
+								<td class="center_cell">Includes:</td>
 								<td>Mask, t-shirt, cape and lightsabre</td>
 							</tr>
 							<tr>
-								<td class="a">Description:</td>
-								<td>Material: 100% Polyester<br/>
-										XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-										XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-										XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-										XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+								<td class="center_cell">Description:</td>
+								<td>“No.. I am your father...”  Always wanted to be Darth Vadar and say this quote to your friends at play?
+									Then this is the right one for you! It comes with the full set with mask, t-shirt, cape and light saber.
+									Get one now before its all out of stock! Material used: 100% Polyester.
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Shipping:</td>
+								<td class="center_cell">Shipping:</td>
 								<td>
 									Express Delivery (DHL): RM50 - Delivery Time: 48h - 72h on weekdays.<br/>
-									* Some products, due to their size, cannot be shipped via this shipping method.<br/>
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br/>
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+									<p><strong>*Note:</strong> Products are being shipped by Airfreight. Some products,
+									due to their size or amount, cannot be shipped via this shipping method.
+									For situation as stated, please use the enquiry form at our website so we
+									will able to discuss the solution.</p>
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Returns:</td>
+								<td class="center_cell">Returns:</td>
 								<td>
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-									XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+									Customers are able to return their goods via the same
+									courier service or contact us via 037-8844562 that was used 
+									and refund will be made within 7 days of working day, but only under
+									these circumstances:<br/>
+									<p><strong>Unused</strong> – Only within 7 day(s) of the date purchased.
+									Days required will be change varies on the amount of item purchase.<br/>
+									<strong>Damaged Product</strong> – Only items that are damaged while it was on Shipment are
+									illegible for this option.<br/>
+									<strong>Product Missing</strong> – Only when the receiver did not received the item within 14 days,
+									this is applicable for refund.<br/></p>
+									Otherwise, legal action shall be taken to solve the problem case.
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Size:</td>
+								<td class="center_cell">Size:</td>
 								<td>
 									<input type="radio" name="size" value="S" />S
 									<input type="radio" name="size" value="M" />M
@@ -85,7 +91,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Quantity:</td>
+								<td class="center_cell">Quantity:</td>
 								<td>
 									<select>
 										<option value="1">1</option>
@@ -102,7 +108,7 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Duration:</td>
+								<td class="center_cell">Duration:</td>
 								<td>
 									<select>
 										<option value="1">1</option>
@@ -114,14 +120,14 @@
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Payment Method:</td>
+								<td class="center_cell">Payment Method:</td>
 								<td>
 									<input type="radio" name="pay" value="Online Banking" />Online Banking
 									<input type="radio" name="pay" value="Credit Card" />Credit Card
 								</td>
 							</tr>
 							<tr>
-								<td class="a">Refrences:</td>
+								<td class="center_cell">Refrences:</td>
 								<td>
 									<a href="https://www.funidelia.my/en/darth-vader-costume-for-men-51469.html" target="_blank">www.fundidella.my</a><br/>
 								</td>

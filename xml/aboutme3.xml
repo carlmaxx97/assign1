@@ -28,47 +28,47 @@
 			<!--Content-->
 			<div id="body">
 				<div class="row">
-					<div class="a">Philip Tiong Kwong Wei</div>
+					<div class="about_div">Philip Tiong Kwong Wei</div>
 					<div class="column_item_25_image">
-						<img src="images/Profile/Philip.jpg" alt="Philip" class="a"/>
+						<img src="images/Profile/Philip.jpg" alt="Philip" class="img_layout"/>
 					</div>
 					<div class="column_item_25">
 						<table>
 							<tr>
-								<td class="a"><label><strong>Student Id</strong></label></td>
+								<td class="center_cell"><label><strong>Student Id</strong></label></td>
 								<td><label class="b">101229644</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Date of Birtd</strong></label></td>
+								<td class="center_cell"><label><strong>Date of Birtd</strong></label></td>
 								<td><label>27-11-1995</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Gender</strong></label></td>
+								<td class="center_cell"><label><strong>Gender</strong></label></td>
 								<td><label>Male</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Age</strong></label></td>
+								<td class="center_cell"><label><strong>Age</strong></label></td>
 								<td><label>24</label></td>
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Status</strong></label></td>
+								<td class="center_cell"><label><strong>Status</strong></label></td>
 								<td><label>Single</label></td>
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Hometown</strong></label></td>
+								<td class="center_cell"><label><strong>Hometown</strong></label></td>
 								<td><label>Sibu</label></td>
 							</tr>
 							<tr>
 								
-								<td class="a"><label><strong>Course</strong></label></td>
-								<td class="b"><label class="c">Bachelor of Information and Communication Technology</label></td>
+								<td class="center_cell"><label><strong>Course</strong></label></td>
+								<td class="info_cell"><label class="course_color">Bachelor of Information and Communication Technology</label></td>
 							</tr>
 							<tr>
 								
-								<td class="a"><label><strong>Hobby</strong></label></td>
+								<td class="center_cell"><label><strong>Hobby</strong></label></td>
 								<td>
 									<ul>
 										<li>Playing Badminton</li>
@@ -81,31 +81,31 @@
 					<div class="column">
 						<table>
 							<tr>
-								<td class="a"><label><strong>Index page</strong></label></td>
+								<td class="center_cell"><label><strong>Index page</strong></label></td>
 								<td><label>Provide the colour design.</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Enquiry page</strong></label></td>
+								<td class="center_cell"><label><strong>Enquiry page</strong></label></td>
 								<td><label>Write information of the enquiry page.</label></td>
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Disclaimer page</strong></label></td>
+								<td class="center_cell"><label><strong>Disclaimer page</strong></label></td>
 								<td><label>Write information of the disclaimer page.</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Navigation page</strong></label></td>
+								<td class="center_cell"><label><strong>Navigation page</strong></label></td>
 								<td><label>Involve the suggestion of the category naming of the product.</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Product page</strong></label></td>
+								<td class="center_cell"><label><strong>Product page</strong></label></td>
 								<td><label>Write description of the product.</label></td>
 								
 							</tr>
 							<tr>
-								<td class="a"><label><strong>Aboutme page</strong></label></td>
+								<td class="center_cell"><label><strong>Aboutme page</strong></label></td>
 								<td><label>Invole write the introduction of myself and design the layout.</label></td>
 								
 							</tr>
@@ -114,8 +114,9 @@
 					</div>
 				</div>
 				<br/>
-				<p><strong>Bintulu</strong> is a coastal town on the island of Borneo in the central region of Sarawak, Malaysia.<br/>
-				Bintulu is located 610 kilometres (380 mi) northeast of Kuching, 216 kilometres (134 mi) northeast of Sibu, and 200 kilometres (120 mi) southwest of Miri.<br/>
+				<p><strong>Bintulu</strong> is a coastal town on the island of Borneo in the central region of Sarawak, Malaysia.<br/><br/>
+				Bintulu is located 610 kilometres (380 mi) northeast of Kuching, 216 kilometres (134 mi) northeast of Sibu, and 200 kilometres (120 mi) southwest of Miri.<br/><br/>
+				Bintulu is a place that you can find kind of a lot of people from different tribe, Iban, Chinese, Melayu, Melanau and Indonesian.<br/><br/>
 				With a population of 114,058 as of 2010, Bintulu is the capital of the Bintulu District of the Bintulu Division of Sarawak, Malaysia.</p>
 			</div>
 			<!--Footer-->
