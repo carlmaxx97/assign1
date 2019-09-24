@@ -330,7 +330,9 @@ img.img_layout {
 /********************************************************************************************************/
 /*								Wrote by Philip Tiong Kwong Wei											*/
 /********************************************************************************************************/
-
+table.size{
+	width:1000px;
+}
 td.enhtitleleft{
 	text-align:right;
 	vertical-align:top;
@@ -349,6 +351,6 @@ td.enhtitleright{
 	font-size:18px;
 }
 td.enhdescrip{
-	text-align:right;
+	text-align:left;
 	vertical-align:top;
 }
