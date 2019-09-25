@@ -211,12 +211,14 @@ img.home_town {
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
 	.column {
 		width: 100%;
+		text-align:center;
 	}
 	
 	/* Create 1 equal columns that floats next to each other in mobile side*/
 	.column_item {
 		float: left;
 		width: 33.33%;
+		text-align:center;
 		padding: 15px;
 	}
 	
@@ -224,6 +226,7 @@ img.home_town {
 	.column_item_25_image {
 		float: left;
 		width: 300px;
+		text-align:center;
 		padding: 15px;
 	}
 	
@@ -231,6 +234,7 @@ img.home_town {
 	.column_item_25 {
 		float: left;
 		width: 50%;
+		text-align:center;
 		padding: 15px;
 	}
 
