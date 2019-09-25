@@ -141,6 +141,15 @@ body {
   float: left;
   width: 20%;
   padding: 15px;
+  text-align:center;
+}
+
+/*To specify the layout of the profile image*/
+.column_item_100 {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  text-align:center;
 }
 
 /*To specify the layout of the profile image*/
@@ -148,6 +157,7 @@ body {
   float: left;
   width: 300px;
   padding: 15px;
+  text-align:center;
 }
 
 /*To specify the layout of the profile information*/
@@ -155,6 +165,7 @@ body {
   float: left;
   width: 25%;
   padding: 15px;
+  text-align:center;
 }
 
 /*To specify the half layout in product1..., aboutme and etc*/
@@ -162,6 +173,7 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
+  text-align:center;
 }
 
 /*To specify the product listing layout of the index, category page*/
