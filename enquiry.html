@@ -40,110 +40,115 @@
 			
 			<!--Content-->
 			<div id="body">
-				<div class="enquiry_center">
-				
-					<form name="enquiry" id="enquiry" method="POST" action="enquiry.html">
-					<table class="enquiry_table">
-					<tr>
-						<td colspan="2" class="c_center"><h3>Enquiry Rental Form</h3></td>
-					</tr>
-					<tr>
-						<td class="right_field">First Name:</td>
-						<td><input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" /></td>
-					</tr>
-					<tr>
-						<td class="right_field">Last Name:</td>
-						<td><input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" /></td>
-					</tr>
-					<tr>
-						<td class="right_field">Email Address:</td>
-						<td><input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." /></td>
-					</tr>
-					<tr>
-						<td colspan="2" class="info_cell">
-						<fieldset>
-						<legend>Address</legend>
-							<table class="enquiry_table">
-							<tr>
-								<td class="addr_right_field">Street Address:</td>
-								<td><input type="text" size ="40" maxlength="40" id="saddress" name="streetaddress" placeholder="Your Address.." required="required" /></td>
-							</tr>
-							<tr>
-								<td class="addr_right_field">City/Town:</td>
-								<td><input type="text" size ="20" maxlength="20" id="city" name="city" placeholder="Your City/town.." required="required" /></td>
-							</tr>
-							<tr>
-								<td class="addr_right_field">State:</td>
-								<td>
-									<select name="state" id="state">
-										<option value="johor">Johor Bahru</option>
-										<option value="kedah">Kedah</option>
-										<option value="kelantan">Kelantan</option>
-										<option value="malacca">Malacca</option>
-										<option value="negsembilan">Negeri Sembilan</option>
-										<option value="pahang">Pahang</option>
-										<option value="penang">Penang</option>
-										<option value="perak">Perak</option>
-										<option value="perlis">Perlis</option>
-										<option value="sabah">Sabah</option>
-										<option value="sarawak">Sarwak</option>
-										<option value="selangor">Selangor</option>
-										<option value="terengganu">Terengganu</option>
-										<option value="kl">Kuala Lumpur</option>
-										<option value="lb">Labuan</option>
-										<option value="pt">Putrajaya</option>
+			
+				<form name="enquiry" id="enquiry" method="POST" action="enquiry.html">
+					<div class="row">
+						<div class="column_item_100">
+							<h3>Enquiry Rental Form</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column">
+							<div class="column_item_25">
+								First Name:
+							</div>
+							<div class="column_item_25">
+								<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" />
+							</div>
+							<div class="column_item_25">
+								Last Name:
+							</div>
+							<div class="column_item_25">
+								<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" />
+							</div>
+							<div class="column_item_25">
+								Email Address:
+							</div>
+							<div class="column_item_25">
+								<input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." />
+							</div>
+							<div class="column_item_25">
+								Phone Number:
+							</div>
+							<div class="column_item_25">
+								<input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" />
+							</div>
+						</div>
+						<div class="column">
+							<fieldset>
+								<legend>Address</legend>
+								<div class="column_item_25">
+									First Name:
+								</div>
+								<div class="column_item_25">
+									<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" />
+								</div>
+								<div class="column_item_25">
+									Last Name:
+								</div>
+								<div class="column_item_25">
+									<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" />
+								</div>
+								<div class="column_item_25">
+									Email Address:
+								</div>
+								<div class="column_item_25">
+									<input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." />
+								</div>
+								<div class="column_item_25">
+									Phone Number:
+								</div>
+								<div class="column_item_25">
+									<input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" />
+								</div>
+							</fieldset>
+						</div>
+						<div class="column">
+								<div class="column_item_25">
+									Product:
+								</div>
+								<div class="column_item_25">
+									<select name="product" id="product">
+										<option value ="bhulk">Baby's Hulk Costume</option>
+										<option value ="ggamora">Girl's Gamora Costume</option>
+										<option value ="bironman">Boy's Iron Man Costume</option>
+										<option value ="wblackwidow">Woman's Black Widow Costume</option>
+										<option value ="mthanos">Man's Thanos Costume</option>
+										<option value ="byoda">Baby's Yoda Costume</option>
+										<option value ="gprincessleia">Girl's Princess Leia Costume</option>
+										<option value ="bjedi">Boy's Jedi Costume</option>
+										<option value ="mdarthvader">Man's Darth Vader Costume</option>
+										<option value ="wrey">Woman's Rey Costume</option>
+										<option value ="bkevinminion">Baby's kevin Minion Costume</option>
+										<option value ="wminion">Woman's Minion Costume</option>
+										<option value ="bdraculaminion">Boy's Dracula Minion Costume</option>
+										<option value ="mjerryminion">Man's Jerry Minion Costume</option>
+										<option value ="gfunminion">Girl's Fun Minion Costume</option>
 									</select>
-								</td>
-							</tr>
-							<tr>
-								<td class="addr_right_field">Postcode:</td>
-								<td><input type="text" pattern="[0-9]{5}" maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required="required" /></td>
-							</tr>
-							</table>
-						</fieldset>
-						</td>
-					</tr>
-					<tr>
-						<td class="right_field">Phone Number:</td>
-						<td><input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" /></td>
-					</tr>
-					<tr>
-						<td class="right_field">Product:</td>
-						<td>
-							<select name="product" id="product">
-								<option value ="bhulk">Baby's Hulk Costume</option>
-								<option value ="ggamora">Girl's Gamora Costume</option>
-								<option value ="bironman">Boy's Iron Man Costume</option>
-								<option value ="wblackwidow">Woman's Black Widow Costume</option>
-								<option value ="mthanos">Man's Thanos Costume</option>
-								<option value ="byoda">Baby's Yoda Costume</option>
-								<option value ="gprincessleia">Girl's Princess Leia Costume</option>
-								<option value ="bjedi">Boy's Jedi Costume</option>
-								<option value ="mdarthvader">Man's Darth Vader Costume</option>
-								<option value ="wrey">Woman's Rey Costume</option>
-								<option value ="bkevinminion">Baby's kevin Minion Costume</option>
-								<option value ="wminion">Woman's Minion Costume</option>
-								<option value ="bdraculaminion">Boy's Dracula Minion Costume</option>
-								<option value ="mjerryminion">Man's Jerry Minion Costume</option>
-								<option value ="gfunminion">Girl's Fun Minion Costume</option>
-							</select>
-						</td>
-					</tr>
-					<tr>
-						<td class="right_field">Rental Duration:</td>
-						<td><input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required="required" /></td>
-					</tr>
-					<tr>
-						<td class="right_field">Comment:</td>
-						<td><textarea name="comment" id="comment" placeholder="Ask anything here.." cols="50" rows="5"></textarea></td>
-					</tr>
-					<tr>
-						<td class="right_field"><input type="submit" value="Submit" class="button"/></td>
-						<td><input type="reset" value="Reset" class="button"/></td>
-					</tr>
-					</table>
-					</form>
-				</div>
+								</div>
+								<div class="column_item_25">
+									Rental Duration:
+								</div>
+								<div class="column_item_25">
+									<input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required="required" />
+								</div>
+								<div class="column_item_25">
+									Comment:
+								</div>
+								<div class="column_item_25">
+									<textarea name="comment" id="comment" placeholder="Ask anything here.."></textarea>
+								</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column">
+							<input type="submit" value="Submit" class="button"/>
+						</div>
+						<div class="column">
+							<input type="reset" value="Reset" class="button"/>
+						</div>
+					</div>
+				</form>
 			</div>
 			
 			<!--Footer-->
