@@ -216,36 +216,6 @@ img.home_town {
 	/* Create 1 equal columns that floats next to each other in mobile side*/
 	.column_item {
 		float: left;
-		width: 20%;
-		padding: 15px;
-	}
-	
-	/*To specify the layout of the profile image in mobile side*/
-	.column_item_25_image {
-		float: left;
-		width: 300px;
-		padding: 15px;
-	}
-	
-	/*To specify the layout of the profile information in mobile side*/
-	.column_item_25 {
-		float: left;
-		width: 25%;
-		padding: 15px;
-	}
-
-
-}
-
-@media screen and (max-width: 767px) {
-	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
-	.column {
-		width: 100%;
-	}
-	
-	/* Create 1 equal columns that floats next to each other in mobile side*/
-	.column_item {
-		float: left;
 		width: 25%;
 		padding: 15px;
 	}
@@ -261,6 +231,36 @@ img.home_town {
 	.column_item_25 {
 		float: left;
 		width: 50%;
+		padding: 15px;
+	}
+
+
+}
+
+@media screen and (max-width: 767px) {
+	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
+	.column {
+		width: 100%;
+	}
+	
+	/* Create 1 equal columns that floats next to each other in mobile side*/
+	.column_item {
+		float: left;
+		width: 50%;
+		padding: 15px;
+	}
+	
+	/*To specify the layout of the profile image in mobile side*/
+	.column_item_25_image {
+		float: left;
+		width: 300px;
+		padding: 15px;
+	}
+	
+	/*To specify the layout of the profile information in mobile side*/
+	.column_item_25 {
+		float: left;
+		width: 100%;
 		padding: 15px;
 	}
 
