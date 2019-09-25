@@ -68,69 +68,6 @@ body {
 	color: inherit;
 }
 
-/*Style the top navigation bar*/
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/*Style the topnav links*/
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
 /*To specify the card layout in index and category page*/
 * {
   box-sizing: border-box;
@@ -350,13 +287,6 @@ img.home_town {
   cursor: pointer;
   width:100%;
 }
-/*To specify the layout of table in enquiry*/
-table.enquiry_table
-{
-	width:91.6%;
-	border-spacing: 15px;
-	display:inline-table;
-}
 
 /*To specify the layout of table in all page*/
 table
@@ -374,26 +304,11 @@ td.center_cell
 	font-weight:bold;
 	width:30%;			/*Edit by Philip*/
 }
-
+/*To specify the text alignment of name of course in aboutme*/
 td.info_cell
 {
 	text-align:left;
 	vertical-align:top;
-}
-
-/*To specify the text alignment of title of field input of enquiry*/
-td.right_field
-{
-	text-align:right;
-	width:50%;
-	vertical-align:top;
-}
-
-/*To specify the text alignment of title of field input in Address fieldset of enquiry*/
-td.addr_right_field
-{
-	text-align:right;
-	width:59%;
 }
 
 /*To specify the text alignment of title of enquiry*/
@@ -425,12 +340,6 @@ div.disclaimer_div
   height:auto;
 }
 
-/*To specify the layout of enquiry*/
-div.enquiry_center {
-  margin: auto;
-  width: 50%;
-}
-
 /*To specify the text type of the student_id of aboutme*/
 label.id_font
 {
@@ -455,23 +364,66 @@ img.img_layout {
 /********************************************************************************************************/
 /*								Wrote by Philip Tiong Kwong Wei											*/
 /********************************************************************************************************/
-table.size{
-	width:1000px;
+
+/*Style the top navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
 }
-td.enhtitleleft{
-	text-align:right;
-	vertical-align:top;
-	font-weight:bold;
-	font-size:18px;
+
+/*Style the topnav links*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-td.enhlink{
-	text-align:right;
-	vertical-align:top;
-	font-weight:bold;
+
+/* Change color on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
 }
-td.enhtitleright{
-	text-align:left;
-	vertical-align:top;
-	font-weight:bold;
-	font-size:18px;
+/* To hide the item in the menu tab*/
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/*To style the dropdown button*/
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+/*To style the dropdown inside content list*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/*To style the dropdown inside content list hyperlink*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/*To style effect when hover the dropdown inside content list*/
+.dropdown-content a:hover {
+  background-color: #4CAF50;
+}
+/*To style effect when hover the dropdown tab*/
+.dropdown:hover .dropdown-content {
+  display: block;
 }
