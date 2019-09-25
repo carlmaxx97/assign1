@@ -78,28 +78,45 @@
 							<fieldset>
 								<legend>Address</legend>
 								<div class="column_item_25">
-									First Name:
+									Street Address:
 								</div>
 								<div class="column_item_25">
-									<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" />
+									<input type="text" size ="40" maxlength="40" id="saddress" name="streetaddress" placeholder="Your Address.." required="required" />
 								</div>
 								<div class="column_item_25">
-									Last Name:
+									City/Town:
 								</div>
 								<div class="column_item_25">
-									<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" />
+									<input type="text" size ="20" maxlength="20" id="city" name="city" placeholder="Your City/town.." required="required" />
 								</div>
 								<div class="column_item_25">
-									Email Address:
+									State:
 								</div>
 								<div class="column_item_25">
-									<input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." />
+									<select name="state" id="state">
+										<option value="johor">Johor Bahru</option>
+										<option value="kedah">Kedah</option>
+										<option value="kelantan">Kelantan</option>
+										<option value="malacca">Malacca</option>
+										<option value="negsembilan">Negeri Sembilan</option>
+										<option value="pahang">Pahang</option>
+										<option value="penang">Penang</option>
+										<option value="perak">Perak</option>
+										<option value="perlis">Perlis</option>
+										<option value="sabah">Sabah</option>
+										<option value="sarawak">Sarwak</option>
+										<option value="selangor">Selangor</option>
+										<option value="terengganu">Terengganu</option>
+										<option value="kl">Kuala Lumpur</option>
+										<option value="lb">Labuan</option>
+										<option value="pt">Putrajaya</option>
+									</select>
 								</div>
 								<div class="column_item_25">
-									Phone Number:
+									Postcode:
 								</div>
 								<div class="column_item_25">
-									<input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" />
+									<input type="text" pattern="[0-9]{5}" maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required="required" />
 								</div>
 							</fieldset>
 						</div>
