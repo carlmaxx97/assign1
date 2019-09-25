@@ -216,7 +216,7 @@ img.home_town {
 	/* Create 1 equal columns that floats next to each other in mobile side*/
 	.column_item {
 		float: left;
-		width: 25%;
+		width: 33.33%;
 		padding: 15px;
 	}
 	
@@ -246,7 +246,7 @@ img.home_town {
 	/* Create 1 equal columns that floats next to each other in mobile side*/
 	.column_item {
 		float: left;
-		width: 50%;
+		width: 100%;
 		padding: 15px;
 	}
 	
