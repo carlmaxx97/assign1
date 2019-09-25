@@ -383,7 +383,7 @@ img.img_layout {
 
 /* Change color on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #4CAF50;
 }
 /* To hide the item in the menu tab*/
 .dropdown {
@@ -421,7 +421,7 @@ img.img_layout {
 }
 /*To style effect when hover the dropdown inside content list*/
 .dropdown-content a:hover {
-  background-color: #4CAF50;
+  background-color: #ddd;
 }
 /*To style effect when hover the dropdown tab*/
 .dropdown:hover .dropdown-content {
