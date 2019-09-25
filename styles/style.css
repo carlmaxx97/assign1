@@ -237,7 +237,7 @@ img.home_town {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1025px) {
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
 	.column {
 		width: 100%;
