@@ -17,12 +17,24 @@
 			</a>
 		  
 		    <!--Menu Bar-->
-			<div>
-				<div class="topnav">
-					<a href="marvel_category.html">Marvel</a>
-					<a href="star_wars_category.html">Star Wars</a>
-					<a href="minion_category.html">Minion</a>
+			<div class="navbar">
+			  <a href="index.html">Home</a>
+			  <div class="dropdown">
+				<button class="dropbtn">Category</button>
+				<div class="dropdown-content">
+				  <a href="marvel_category.html">Marvel</a>
+				  <a href="star_wars_category.html">Star Wars</a>
+				  <a href="minion_category.html">Minion</a>
 				</div>
+			  </div> 
+			  <div class="dropdown">
+				<button class="dropbtn">About me</button>
+				<div class="dropdown-content">
+				  <a href="aboutme1.html">About Harold</a>
+				  <a href="aboutme2.html">About Chua Chung Long</a>
+				  <a href="aboutme3.html">About Philip</a>
+				</div>
+			  </div> 
 			</div>
 			
 			<!--Content-->
@@ -36,11 +48,11 @@
 						<table>
 							<tr>
 								<td class="center_cell"><label><strong>Student Id</strong></label></td>
-								<td><label class="b">101228311</label></td>
+								<td><label class="id_font">101228311</label></td>
 								
 							</tr>
 							<tr>
-								<td class="center_cell"><label><strong>Date of Birtd</strong></label></td>
+								<td class="center_cell"><label><strong>Date of Birth</strong></label></td>
 								<td><label>18-05-1997</label></td>
 								
 							</tr>
@@ -79,7 +91,7 @@
 						</table>
 					</div>
 					<div class="column">
-						<table>
+						<table class="table_style">
 							<tr>
 								<td class="center_cell"><label><strong>Index page</strong></label></td>
 								<td><label>Giving the design's idea.</label></td>
@@ -95,17 +107,22 @@
 								
 							</tr>
 							<tr>
+								<td class="center_cell"><label><strong>Enhancements page</strong></label></td>
+								<td><label>Searching videos and giving the suggestion of the enhancements idea</label></td>
+								
+							</tr>
+							<tr>
 								<td class="center_cell"><label><strong>Navigation page</strong></label></td>
 								<td><label>Giving suggestion of design and category idea.</label></td>
 								
 							</tr>
 							<tr>
 								<td class="center_cell"><label><strong>Product page</strong></label></td>
-								<td><label>Searching the picture and information from other website and do coding.</label></td>
+								<td><label>Searching the picture and information and do coding.</label></td>
 								
 							</tr>
 							<tr>
-								<td class="center_cell"><label><strong>Aboutme page</strong></label></td>
+								<td class="center_cell"><label><strong>About me page</strong></label></td>
 								<td><label>Write the introduction of myself and design the layout.</label></td>
 								
 							</tr>
@@ -114,25 +131,31 @@
 					</div>
 				</div>
 				<br/>
-				<p><strong>Sibu</strong> is the one of three city in the sarawak, it is locate at intersaction of Rejang river and the Igan river.<br/><br/>
-				This town is located on the island of Borneo and covers an area of 129.5 square kilometres (50.0 sq mi).<br/><br/>
-				Sibu consist four type of the people which is Chinese, Iban, Melayu and Melanau.<br/><br/>
-				At the past of 1950, Sibu used to be the largest city in Sarawak. The population of Sibu is arround 16000 in 2010. The population of Sibu is continues increasely</p>
-		   </div>
-		   <!--Footer-->
+				<div class="row">
+					<div class="column">
+						<p><strong>Sibu</strong> is the one of three city in the sarawak, it is locate at intersaction of Rejang river and the Igan river.<br/><br/>
+						This town is located on the island of Borneo and covers an area of 129.5 square kilometres (50.0 sq mi).<br/><br/>
+						Sibu consist four type of the people which is Chinese, Iban, Melayu and Melanau.<br/><br/>
+						At the past of 1950, Sibu used to be the largest city in Sarawak. The population of Sibu is arround 16000 in 2010. The population of Sibu is continues increasely</p>
+					</div>
+					<div class="column_item_25">
+						<iframe src="https://www.youtube.com/embed/GAwu9dN7wPU"></iframe>
+					</div>
+					<div class="column_item_25">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.549479692073!2d111.8341098153287!3d2.3194222583379056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31f77f9e48d20aa1%3A0x6c594aed4e045562!2s9%2C%20Lor%20Tun%20Abang%20Haji%20Openg%2020%2C%20Kampung%20Nangka%2C%2096000%20Sibu%2C%20Sarawak!5e0!3m2!1sen!2smy!4v1569333743157!5m2!1sen!2smy"></iframe>
+					</div>
+				</div>
+			</div>
+			<!--Footer-->
 			<div id="footer">
 				<p class="footer-links">
 					<a href="index.html">Home</a>
 					·
 					<a href="enquiry.html">Enquiry</a>
 					·
-					<a href="aboutme1.html">About Harold Mah Wei Jing</a>
-					·
-					<a href="aboutme2.html">About Chua Chung Long</a>
-					·
-					<a href="aboutme3.html">About Philip Tiong Kwong Wei</a>
-					·
 					<a href="disclaimer.html">Disclaimer</a>
+					·
+					<a href="enhancements.html">Enhancements</a>
 				</p>
 				
 				<p class="footer-company-name">

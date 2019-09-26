@@ -18,12 +18,24 @@
 			</a>
 		  
 		    <!--Menu Bar-->
-			<div>
-				<div class="topnav">
-					<a href="marvel_category.html">Marvel</a>
-					<a href="star_wars_category.html">Star Wars</a>
-					<a href="minion_category.html">Minion</a>
+			<div class="navbar">
+			  <a href="index.html">Home</a>
+			  <div class="dropdown">
+				<button class="dropbtn">Category</button>
+				<div class="dropdown-content">
+				  <a href="marvel_category.html">Marvel</a>
+				  <a href="star_wars_category.html">Star Wars</a>
+				  <a href="minion_category.html">Minion</a>
 				</div>
+			  </div> 
+			  <div class="dropdown">
+				<button class="dropbtn">About me</button>
+				<div class="dropdown-content">
+				  <a href="aboutme1.html">About Harold</a>
+				  <a href="aboutme2.html">About Chua Chung Long</a>
+				  <a href="aboutme3.html">About Philip</a>
+				</div>
+			  </div> 
 			</div>
 			
 			<!--Content-->
@@ -54,7 +66,7 @@
 									“Fulfill your destiny!” May the force be with you! Get this Jedi costume
 									and be one of the Jedi to fight the others to protect the galaxy!
 									Trying to become Luke? This will be the perfect costume for you!
-									Material used: 85% Polyester &#38; 15% Other Fibers.
+									Material used: 85% Polyester &#36; 15% Other Fibers.
 								</td>
 							</tr>
 							<tr>
@@ -148,13 +160,9 @@
 					·
 					<a href="enquiry.html">Enquiry</a>
 					·
-					<a href="aboutme1.html">About Harold Mah Wei Jing</a>
-					·
-					<a href="aboutme2.html">About Chua Chung Long</a>
-					·
-					<a href="aboutme3.html">About Philip Tiong Kwong Wei</a>
-					·
 					<a href="disclaimer.html">Disclaimer</a>
+					·
+					<a href="enhancements.html">Enhancements</a>
 				</p>
 				
 				<p class="footer-company-name">
