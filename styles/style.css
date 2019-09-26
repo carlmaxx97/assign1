@@ -26,7 +26,7 @@ body {
 
 /*To specify the padding of the content top and bottom*/
 #body {
-   padding:10px;
+   padding:5px;
    padding-bottom:180px;
 }
 
@@ -78,15 +78,15 @@ body {
   float: left;
   width: 20%;
   padding: 15px;
-  text-align:center;
+  
 }
 
-/*To specify the layout of the profile image*/
+/*To specify the layout of the column with ful width*/
 .column_item_100 {
   float: left;
   width: 100%;
   padding: 15px;
-  text-align:center;
+  
 }
 
 /*To specify the layout of the profile image*/
@@ -94,7 +94,7 @@ body {
   float: left;
   width: 300px;
   padding: 15px;
-  text-align:center;
+  
 }
 
 /*To specify the layout of the profile information*/
@@ -102,7 +102,7 @@ body {
   float: left;
   width: 25%;
   padding: 15px;
-  text-align:center;
+  
 }
 
 /*To specify the half layout in product1..., aboutme and etc*/
@@ -110,7 +110,7 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
-  text-align:center;
+ 
 }
 
 /*To specify the product listing layout of the index, category page*/
@@ -153,6 +153,11 @@ img.home_town {
   content: "";
   display: table;
   clear: both;
+}
+
+/*To specify the height of the enhancements list height*/
+.enhancements{
+  padding:10px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -296,6 +301,12 @@ table
 	border-spacing: 15px;
 }
 
+.table_style
+{
+	text-align:center;
+	background-color:#00000025;
+}
+
 /*To specify the text alignment in aboutme,product information title*/
 td.center_cell
 {
@@ -344,12 +355,13 @@ div.disclaimer_div
 label.id_font
 {
 	font-family: Arial,sans-serif;
+	text-align:right;
 }
 
 /*To specify the text color of the course of aboutme*/
 label.course_color
 {
-	color:rgba(102,0,102,1.0);
+	color:rgb(102,0,102);
 }
 
 /*To specify the image layout of the profile image*/
@@ -359,6 +371,39 @@ img.img_layout {
   padding:20px;
   width:300px;
   height:400px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+.centered {
+  background-color:#00000080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
+  font-size:60px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+}
+
+.bg {
+  /* The image used */
+    background-image: url("../images/bgimages.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 /********************************************************************************************************/
