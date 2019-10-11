@@ -104,6 +104,6 @@ function validateFunc(){
 }
 function getSelectedValue(){
 	//Get Value from dropdown element
-	var selectedItem = document.getElementById("product");
+	var selectedItem = document.getElementById("product").value;
 	console.log(selectedItem);
 }
