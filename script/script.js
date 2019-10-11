@@ -14,9 +14,7 @@ function myFunction()
 		// Append the element to the end of Array list
 		Pro_dropdown[Pro_dropdown.length] = new Option(myProduct[i], myProduct[i]);
 	}
-	//Get Value from dropdown element
-	var selectedItem = document.getElementId("product");
-	console.log(selectedItem);
+	
 	
 	
 	
@@ -103,4 +101,9 @@ function validateFunc(){
 	{
 		alert("Success");
 	}
+}
+function getSelectedValue(){
+	//Get Value from dropdown element
+	var selectedItem = document.getElementId("product");
+	console.log(selectedItem);
 }
