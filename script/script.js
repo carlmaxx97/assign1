@@ -108,4 +108,4 @@ function getSelectedValue(){
 	//console.log(selectedItem);
 	document.getElementById("subject").text = selectedItem；
 	}
-}
+
