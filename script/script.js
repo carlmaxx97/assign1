@@ -107,7 +107,7 @@ function getSelectedValue()
 	//Get Value from dropdown element
 	var selectedItem = document.getElementById("product").value;
 	console.log(selectedItem);
-	console.log(selectedItem);
+	//Put the value get from dropdown element into the textbox
 	var inputtext = document.getElementById("subject");
 	inputtext.value = selectedItem;
 	}
