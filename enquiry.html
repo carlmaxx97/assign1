@@ -6,8 +6,10 @@
 		<!--Link to Css File-->
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 		<title>Assignment 1-Costume Gallery</title>
+		<script src="../assign1-master/script/script.js"></script>
+		
 	</head>
-	<body>
+	<body onload="myFunction()">
 		<div id="container">
 		
 			<!--Header-->
@@ -40,7 +42,6 @@
 			
 			<!--Content-->
 			<div id="body">
-			
 				<form name="enquiry" id="enquiry" method="POST" action="enquiry.html">
 					<div class="row">
 						<div class="column_item_100">
@@ -53,25 +54,25 @@
 								First Name:
 							</div>
 							<div class="column_item_25">
-								<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" />
+								<input type="text" title="Alphabet Only" id="fname" name="firstname" placeholder = "Your name.." required="required" />
 							</div>
 							<div class="column_item_25">
 								Last Name:
 							</div>
 							<div class="column_item_25">
-								<input type="text" pattern="[A-Za-z]*" maxlength="25" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" />
+								<input type="text" title="Alphabet Only" id="lname" name="lastname" placeholder="Your last name.." required="required" />
 							</div>
 							<div class="column_item_25">
 								Email Address:
 							</div>
 							<div class="column_item_25">
-								<input type="email" id="eaddress" name="eaddress" placeholder="Your E-mail.." />
+								<input type="text" id="eaddress" name="eaddress" placeholder="Your E-mail.." />
 							</div>
 							<div class="column_item_25">
 								Phone Number:
 							</div>
 							<div class="column_item_25">
-								<input type="text" pattern="[0-9]{1,10}" maxlength ="10" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required" />
+								<input type="text" id="pnum" name="pnum" placeholder="Your H/P.." title="Please enter maximum 10 digit" required="required"/>
 							</div>
 						</div>
 						<div class="column">
@@ -81,42 +82,27 @@
 									Street Address:
 								</div>
 								<div class="column_item_25">
-									<input type="text" maxlength="40" id="saddress" name="streetaddress" placeholder="Your Address.." required="required" />
+									<input type="text" id="saddress" name="streetaddress" placeholder="Your Address.." required="required"/>
 								</div>
 								<div class="column_item_25">
 									City/Town:
 								</div>
 								<div class="column_item_25">
-									<input type="text" maxlength="20" id="city" name="city" placeholder="Your City/town.." required="required" />
+									<input type="text" id="city" name="city" placeholder="Your City/town.." required="required"/>
 								</div>
 								<div class="column_item_25">
 									State:
 								</div>
 								<div class="column_item_25">
-									<select name="state" id="state">
-										<option value="johor">Johor Bahru</option>
-										<option value="kedah">Kedah</option>
-										<option value="kelantan">Kelantan</option>
-										<option value="malacca">Malacca</option>
-										<option value="negsembilan">Negeri Sembilan</option>
-										<option value="pahang">Pahang</option>
-										<option value="penang">Penang</option>
-										<option value="perak">Perak</option>
-										<option value="perlis">Perlis</option>
-										<option value="sabah">Sabah</option>
-										<option value="sarawak">Sarwak</option>
-										<option value="selangor">Selangor</option>
-										<option value="terengganu">Terengganu</option>
-										<option value="kl">Kuala Lumpur</option>
-										<option value="lb">Labuan</option>
-										<option value="pt">Putrajaya</option>
-									</select>
+									<select id="state">
+										<option>Choose a State</option>
+									  </select>
 								</div>
 								<div class="column_item_25">
 									Postcode:
 								</div>
 								<div class="column_item_25">
-									<input type="text" pattern="[0-9]{5}" maxlength ="5" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required="required" />
+									<input type="text" id="postcode" name="postcode" placeholder="Your Postcode.." title="Please enter 5 digit" required="required"/>
 								</div>
 							</fieldset>
 						</div>
@@ -125,29 +111,15 @@
 									Product:
 								</div>
 								<div class="column_item_25">
-									<select name="product" id="product">
-										<option value ="bhulk">Baby's Hulk Costume</option>
-										<option value ="ggamora">Girl's Gamora Costume</option>
-										<option value ="bironman">Boy's Iron Man Costume</option>
-										<option value ="wblackwidow">Woman's Black Widow Costume</option>
-										<option value ="mthanos">Man's Thanos Costume</option>
-										<option value ="byoda">Baby's Yoda Costume</option>
-										<option value ="gprincessleia">Girl's Princess Leia Costume</option>
-										<option value ="bjedi">Boy's Jedi Costume</option>
-										<option value ="mdarthvader">Man's Darth Vader Costume</option>
-										<option value ="wrey">Woman's Rey Costume</option>
-										<option value ="bkevinminion">Baby's kevin Minion Costume</option>
-										<option value ="wminion">Woman's Minion Costume</option>
-										<option value ="bdraculaminion">Boy's Dracula Minion Costume</option>
-										<option value ="mjerryminion">Man's Jerry Minion Costume</option>
-										<option value ="gfunminion">Girl's Fun Minion Costume</option>
-									</select>
+									  <select id="product">
+										<option>Choose a product</option>
+									  </select>
 								</div>
 								<div class="column_item_25">
 									Rental Duration:
 								</div>
 								<div class="column_item_25">
-									<input type="number" name="rentdura" id="rentdura" placeholder="Days to rent for.." required="required" />
+									<input type="text" name="rentdura" id="rentdura" placeholder="Days to rent for.." required="required"/>
 								</div>
 								<div class="column_item_25">
 									Comment:
@@ -155,11 +127,17 @@
 								<div class="column_item_25">
 									<textarea name="comment" id="comment" placeholder="Ask anything here.."></textarea>
 								</div>
+								<div class="column_item_25">
+									Subject:
+								</div>
+								<div class="column_item_25">
+									<input type="text" name="subject" id="subject" placeholder="Subject"/>
+								</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="column">
-							<input type="submit" value="Submit" class="button"/>
+							<input type="submit" value="Submit" class="button" onclick="validateFunc()"/>
 						</div>
 						<div class="column">
 							<input type="reset" value="Reset" class="button"/>
