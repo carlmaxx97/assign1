@@ -6,6 +6,7 @@
 		<!--Link to Css File-->
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 		<title>Assignment 1-Costume Gallery</title>
+		<script src="script/script.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -123,7 +124,7 @@
 							<tr>
 								<td class="center_cell">Duration:</td>
 								<td>
-									<select>
+									<select name="duration" id="duration" onchange="rent_duration()">
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -146,7 +147,7 @@
 								</td>
 							</tr>
 							</table>
-						<input type="button" class="button" value="Rental" />
+						<input type="button" class="button" value="Rental" onclick="rent(9, rent_duration())" />
 						</form>
 					</div>
 				</div>
