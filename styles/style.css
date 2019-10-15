@@ -105,6 +105,14 @@ body {
   
 }
 
+/*To specify the layout of the enquiry information*/
+.column_item_30 {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  
+}
+
 /*To specify the half layout in product1..., aboutme and etc*/
 .column {
   float: left;
@@ -192,6 +200,13 @@ img.home_town {
 		padding: 15px;
 	}
 
+	/*To specify the layout of the enquiry information*/
+	.column_item_30 {
+		float: left;
+		width: 50%;
+		text-align:center;
+		padding: 15px;
+	}
 
 }
 
@@ -225,6 +240,14 @@ img.home_town {
 		text-align:center;
 		padding: 15px;
 	}
+	
+	/*To specify the layout of the enquiry information*/
+	.column_item_30 {
+		float: left;
+		width: 100%;
+		text-align:center;
+		padding: 15px;
+	}
 
 }
 
@@ -253,6 +276,14 @@ img.home_town {
 	
 	/*To specify the layout of the profile information in mobile side*/
 	.column_item_25 {
+		float: left;
+		width: 100%;
+		text-align:center;
+		padding: 15px;
+	}
+	
+	/*To specify the layout of the enquiry information*/
+	.column_item_30 {
 		float: left;
 		width: 100%;
 		text-align:center;
