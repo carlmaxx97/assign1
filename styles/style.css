@@ -168,6 +168,16 @@ img.home_town {
   padding:10px;
 }
 
+/*To specify highlight of the current tab*/
+.current_tab{
+  background-color: #4caf50;
+}
+
+/*To specify highlight of the current page*/
+.current_page{
+  background-color: #ddd;
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1025px) {
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
