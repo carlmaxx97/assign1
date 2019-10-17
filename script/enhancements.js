@@ -5,7 +5,7 @@ function navigation_highlight()
 	if(cur_page)
 	{
 		var cur_tab = cur_page.parentElement.parentElement;
-		if(cur_tab.className == null)
+		if(cur_tab.className == '')
 		{
 			cur_page.classList.add("current_tab");
 		}
