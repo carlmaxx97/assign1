@@ -2,10 +2,9 @@
 function navigation_highlight()
 {
 	var cur_page =document.querySelector("div[class='navbar']").querySelector("a[href='"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1)+"']");
-	var cur_tab;
 	if(cur_page)
 	{
-		cur_tab = cur_page.parentElement.parentElement;
+		var cur_tab = cur_page.parentElement.parentElement;
 		if(cur_tab.className == '')
 		{
 			cur_page.classList.add("current_tab");
