@@ -26,4 +26,8 @@ function form_submission()
 	  	alert("Success");
 		document.getElementById('enquiry').submit();
 	} 
+	else
+	{
+		alert("Please refill the incorrect field part");
+	}
 }
