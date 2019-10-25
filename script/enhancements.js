@@ -21,6 +21,9 @@ function navigation_highlight()
 /*Display the popup after submission of form and submit*/
 function form_submission()
 {
-	alert("Success");
-	document.getElementById('enquiry').submit();
+	if (confirm("Are you sure all the information filled are correct?"))
+	{
+	  	alert("Success");
+		document.getElementById('enquiry').submit();
+	} 
 }
