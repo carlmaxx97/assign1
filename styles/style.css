@@ -435,7 +435,7 @@ img.img_layout {
 
 .bg {
   /* The image used */
-    background-image: url("../images/bgimages.jpg");
+    background-image: url("../images/bg1.jpg");
 
   /* Full height */
   height: 100%; 
@@ -567,4 +567,21 @@ p.photoCapCenter
 /*To style effect when hover the dropdown tab*/
 .dropdown:hover .dropdown-content {
   display: block;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
