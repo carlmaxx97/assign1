@@ -435,7 +435,7 @@ img.img_layout {
 
 .bg {
   /* The image used */
-    background-image: url("../images/bg1.jpg");
+   /* background-image: url("../images/bg1.jpg");*/
 
   /* Full height */
   height: 100%; 
