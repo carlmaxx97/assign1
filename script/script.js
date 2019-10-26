@@ -188,7 +188,7 @@ function validateFunc(){
 	{
 		document.getElementById("pnum").style.borderColor = "green";
 	}
-	if (addr.length > 40 || addr=="")
+	if (addr.length > 40 || addr.trim().length == 0)
 	{
 		str += "Invalid Input of Address \n";
 		document.getElementById("saddress").style.borderColor = "red";
@@ -197,7 +197,7 @@ function validateFunc(){
 	{
 		document.getElementById("saddress").style.borderColor = "green";
 	}
-	if (city.length > 20 || city=="")
+	if (city.length > 20 || city.trim().length == 0)
 	{
 		str += "Invalid Input of City/Town \n";
 		document.getElementById("city").style.borderColor = "red";
