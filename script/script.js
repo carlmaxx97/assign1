@@ -5,7 +5,8 @@ var myProduct = new Array("Baby's Hulk Costume", "Girl's Gamora Costume", "Boy's
 							  "Woman's Rey Costume","Baby's kevin Minion Costume","Woman's Minion Costume",
 							  "Boy's Dracula Minion Costume","Man's Jerry Minion Costume",
 							  "Girl's Fun Minion Costume");
-
+var slideIndex = 0;
+showSlides();
 /*Pass the rent duration to enquiry page if user select a duration*/
 function rent_duration()
 {
@@ -259,4 +260,21 @@ function validateFunc(){
 	{
 		form_submission();
 	}
+}
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
