@@ -108,7 +108,7 @@ function getSelectedValue(product_desc = null, product = null, duration = null)
 		if(document.getElementById("product").selectedIndex !=0)
 		{
 			var inputtext = document.getElementById("subject");
-			inputtext.value = "Enquiry on " +selectedItem;
+			inputtext.value = "RE: Enquiry on " +selectedItem;
 		}
 		else
 		{
