@@ -573,7 +573,7 @@ p.photoCapCenter
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle; width :80% ; height:80%;}
+img {vertical-align: middle; width :50% ; height:50%;}
 
 
 /* Next & previous buttons */
