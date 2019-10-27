@@ -572,19 +572,12 @@ p.photoCapCenter
 
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {
-	display: none
-height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-	background-size: cover;}
+.mySlides {display: none}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-   
+
 }
 
 /* Next & previous buttons */
