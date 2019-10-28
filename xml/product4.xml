@@ -6,8 +6,10 @@
 		<!--Link to Css File-->
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 		<title>Assignment 1-Costume Gallery</title>
+		<script src="script/enhancements.js"></script>
+		<script src="script/script.js"></script>
 	</head>
-	<body>
+	<body onload="onload_menubar_product()">
 		<div id="container">
 		
 			<!--Header-->
@@ -42,7 +44,14 @@
 			<div id="body">
 				<div class="row">
 					<div class="column">
-						<img src="images/Marvel/black-widow-costume(woman).jpg" alt="marvel costume picture" class="center"/>
+						<img src="images/Marvel/black-widow-costume(woman).jpg" alt="marvel costume picture" id="myImg" class="center" onclick="picZoom()"/>
+						<div>
+							<p class="photoCapCenter">Click to zoom</p>
+						</div>
+						<div id="myModal" class="modal">
+							<span class="close">&#215;</span>
+							<img src="images/Marvel/black-widow-costume(woman).jpg" alt="marvel costume picture" class="modal-content" id="img01"/>
+						</div>
 					</div>
 					<div class="column">
 						<form>
@@ -124,7 +133,7 @@
 							<tr>
 								<td class="center_cell">Duration:</td>
 								<td>
-									<select>
+									<select name="duration" id="duration">
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -147,7 +156,7 @@
 								</td>
 							</tr>
 							</table>
-						<input type="button" class="button" value="Rental" />
+						<input type="button" class="button" value="Rental" onclick="rent(3)" />
 						</form>
 					</div>
 				</div>
@@ -163,6 +172,8 @@
 					<a href="disclaimer.html">Disclaimer</a>
 					·
 					<a href="enhancements.html">Enhancements</a>
+					·
+					<a href="enhancements2.html">Javascript Enhancements</a>
 				</p>
 				
 				<p class="footer-company-name">

@@ -4,9 +4,11 @@
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Assignment 1-Costume Gallery</title>
+		<script src="script/enhancements.js"></script>
+		<script src="script/script.js"></script>
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
 	</head>
-	<body class="bg">
+	<body onload="onload_menubar_product(), start_slideshow();">
 		<div id="container">
 		
 			<!--Header-->
@@ -44,9 +46,24 @@
 			<!--Content-->
 			
 				<div class="row">
-					  <div class="centered">
+					<div class="slideshow-container">
+
+						<div class="mySlides fade">
+						  <img src="images/bg1.jpg" alt="background1" class="bg"/>
+						</div>
+
+						<div class="mySlides fade">
+						  <img src="images/bg2.jpg" alt="background1" class="bg"/>
+						</div>
+
+						<div class="mySlides fade">
+						  <img src="images/bg3.jpg" alt="background1" class="bg"/>
+						</div>
+
+					</div>
+					<div class="centered">
 						Choose Your Dream Costume
-					  </div>
+					</div>
 				</div>
 			
 			
@@ -60,6 +77,8 @@
 					<a href="disclaimer.html">Disclaimer</a>
 					·
 					<a href="enhancements.html">Enhancements</a>
+					·
+					<a href="enhancements2.html">Javascript Enhancements</a>
 				</p>
 				
 				<p class="footer-company-name">
