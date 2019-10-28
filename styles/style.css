@@ -178,6 +178,17 @@ img.home_town {
   background-color: #ddd;
 }
 
+.centered {
+  background-color:#00000080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
+  font-size:60px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1025px) {
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
@@ -217,6 +228,11 @@ img.home_town {
 		text-align:center;
 		padding: 15px;
 	}
+	
+	.centered {
+  font-size:50px;
+  
+}
 
 }
 
@@ -258,6 +274,11 @@ img.home_town {
 		text-align:center;
 		padding: 15px;
 	}
+	
+	.centered {
+  font-size:40px;
+  
+}
 
 }
 
@@ -299,6 +320,11 @@ img.home_town {
 		text-align:center;
 		padding: 15px;
 	}
+	
+	.centered {
+  font-size:20px;
+  
+}
 }
 
 /********************************************************************************************************/
@@ -419,18 +445,6 @@ img.img_layout {
   text-align: center;
   color: white;
 
-}
-
-.centered {
-  background-color:#00000080;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#FFF;
-  font-size:60px;
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  text-align:center;
 }
 
 .bg {
