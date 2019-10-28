@@ -1,3 +1,4 @@
+var slideIndex;
 function a()
 {
 
@@ -54,18 +55,23 @@ function form_submission()
 	}
 }
 
-// Next/previous controls button of the slideshow
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function start_slideshow()
+{
+	slideIndex = 0;
+	showSlides();
 }
+
 //Display the image of the slideshow
-function showSlides(n) {
+function showSlides() 
+{
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+    slides[i].style.display = "none";  
   }
-  slides[slideIndex-1].style.display = "block";
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
