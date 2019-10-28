@@ -189,6 +189,16 @@ img.home_town {
   font-family:"Comic Sans MS", cursive, sans-serif;
   text-align:center;
 }
+
+.bg {
+	width: 100%;
+	height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+}
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1025px) {
 	/*To specify the half layout in product1..., aboutme and etc in mobile side*/
@@ -229,17 +239,26 @@ img.home_town {
 		padding: 15px;
 	}
 	
+	.bg {
+	  width: 100%;
+		height: 500px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	  
+	}
+	
 	.centered {
-  background-color:#00000080;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#FFF;
-  font-size:50px;
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  text-align:center;
-}
+	  background-color:#00000080;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color:#FFF;
+	  font-size:50px;
+	  font-family:"Comic Sans MS", cursive, sans-serif;
+	  text-align:center;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -281,17 +300,26 @@ img.home_town {
 		padding: 15px;
 	}
 	
+	.bg {
+	  width: 100%;
+		height: 450px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	  
+	}
+	
 	.centered {
-  background-color:#00000080;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#FFF;
-  font-size:40px;
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  text-align:center;
-}
+	  background-color:#00000080;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color:#FFF;
+	  font-size:40px;
+	  font-family:"Comic Sans MS", cursive, sans-serif;
+	  text-align:center;
+	}
   
 
 }
@@ -327,6 +355,15 @@ img.home_town {
 		padding: 15px;
 	}
 	
+	.bg {
+	  width: 100%;
+		height: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	  
+	}
+	
 	/*To specify the layout of the enquiry information*/
 	.column_item_30 {
 		float: left;
@@ -335,17 +372,26 @@ img.home_town {
 		padding: 15px;
 	}
 	
+	.bg {
+	  width: 100%;
+		height: 450px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+	  
+	}
+	
 	.centered {
-  background-color:#00000080;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:#FFF;
-  font-size:30px;
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  text-align:center;
-}
+	  background-color:#00000080;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  color:#FFF;
+	  font-size:30px;
+	  font-family:"Comic Sans MS", cursive, sans-serif;
+	  text-align:center;
+	}
   
 }
 
@@ -467,20 +513,6 @@ img.img_layout {
   text-align: center;
   color: white;
 
-}
-
-.bg {
-  /* The image used */
-    background-image: url("../images/bgimages.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
 }
 
 #myImg {
@@ -608,40 +640,8 @@ p.photoCapCenter
 /* Slideshow container */
 .slideshow-container {
   height: 100%;
-  /*position: relative;*/
+  position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 /* Fading animation */
@@ -653,11 +653,11 @@ p.photoCapCenter
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
