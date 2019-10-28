@@ -230,10 +230,16 @@ img.home_town {
 	}
 	
 	.centered {
+  background-color:#00000080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
   font-size:50px;
-  
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
 }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -276,9 +282,17 @@ img.home_town {
 	}
 	
 	.centered {
+  background-color:#00000080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
   font-size:40px;
-  
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
 }
+  
 
 }
 
@@ -322,9 +336,17 @@ img.home_town {
 	}
 	
 	.centered {
-  font-size:20px;
-  
+  background-color:#00000080;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#FFF;
+  font-size:30px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  text-align:center;
 }
+  
 }
 
 /********************************************************************************************************/
